@@ -1,0 +1,20 @@
+/* http://paletton.com/#uid=13M050kktl73KUvbuv1ssceMq2B
+D5DCEE blanc
+7180A6 bleu clair
+0D1C41 bleu foncé
+01040E noir
+*/
+body{
+  padding, margin: 0,
+}
+header{
+  background-color: #0D1C41;
+}
+nav{
+  font-color : #D5DCEE;
+  display: inline-block;
+}
+nav button{
+ position: center;
+ display: block;
+}
