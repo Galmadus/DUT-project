@@ -4,17 +4,118 @@ D5DCEE blanc
 0D1C41 bleu foncé
 01040E noir
 */
+/* 
+#1A1D26 Bleu foncé
+#223645 bleu foncé + clair
+#DCDCDC gris pale
+#FFF5EF blanc casser
+#B83A1B rouge orange
+*/
+
+body, html {
+	color:#fff;
+	background-color:#223645;
+	font-weight:150px;
+	margin: 0;
+	padding: 0;
+}
+
 body{
-  padding, margin: 0,
+	margin-bottom:4%;
 }
-header{
-  background-color: #0D1C41;
+
+nav.nav_horizontal{
+	background-color: #1A1D26;
+	color: #fff;
+	top: 0;
+	margin-left: 16%;
+	margin-right: 16%;
+	padding: 0;
+	position: static;
+	margin-top: 0;
 }
-nav{
-  font-color : #D5DCEE;
-  display: inline-block;
+nav.nav_vertical_gauche{
+	display: block;
+	background-color: #1A1D26;
+	padding:10px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width:15%;
+	border-right-style: 1px;
+	border-color: #F22613;
+	box-shadow: 1px 1px 10px black inset, 
+                0 0px 0 rgba( 255, 255, 255, 0.4);
 }
-nav button{
- position: center;
- display: block;
+nav.nav_vertical_droite{
+	display: block;
+	background-color: #1A1D26;
+	padding:10px;
+	position: fixed;
+	right: 0;
+	top: 0;
+	height: 100%;
+	width:15%;
+	border-right-style: 1px;
+	border-color: #F22613;
+	box-shadow: 1px 1px 10px black inset, 
+                0 0px 0 rgba( 255, 255, 255, 0.4);
 }
+
+nav.nav_horizontal li {
+    background-color: #DCDCDC;
+    border : 3px solid #000;
+    color: #1A1D26;
+    padding: 5px ;
+    width: auto;
+    margin-bottom: 10px;
+    margin-top: 7px;
+    text-decoration: none;
+    display: inline-block;
+	font-size: 40px;
+}
+
+nav.nav_horizontal li:hover{
+	background-color: #EDEDED;
+}
+
+nav li:hover{
+	background-color: #EDEDED;
+}
+
+p{
+	text-align: center;
+	border : 3px solid #000;
+	width: 20%;
+	margin-left: 8px;
+	margin-bottom: auto;
+	position: relative;
+	display: inline-block;
+	
+}
+section{
+	margin-left: 11%;
+	margin-right: 11%;
+	text-align: center;
+	display: inline-block;
+}
+
+h1{
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 80px;
+	font-style: bold;
+	color:#B83A1B;
+}
+
+footer{
+	background-color: #1A1D26;
+	color: #fff;
+	border-style: solid;
+	border-color: black;
+	text-align: center;
+	position:fixed;
+	bottom:0;
+	width: 100%;
+	height: 5%;
